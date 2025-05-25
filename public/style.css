@@ -1,0 +1,106 @@
+body {
+    background-image:url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnM3aHc4YzZzaXdsaGFkemtiZmttMWFzOGV5bDhqd2d5MG0wM21obyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonPersonalizado {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botonPersonalizado:hover {
+    background-color: #45a049;
+}
+
+#tituloBoton {
+    text-align: center;
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.loginForm{
+    padding: 30px 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 2px solid #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 10px;
+}
+.loginForm input {
+    padding: 10px;
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#user-form{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#password-form{
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.registerForm{
+    padding: 30px 40px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 2px solid #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 10px;
+}
+
+.registerForm input {
+    padding: 10px;
+    border-radius: 15px; 
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#botonRegistro{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+#botonRegistro:hover {
+    background-color: #45a049;
+}
+
+#tituloRegistro{
+    text-align: center;
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
